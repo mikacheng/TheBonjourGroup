@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/524644cb14.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/wordlist.css">
+  <title>Les pièces de la maison.</title>
+</head>
+<body>
+  <div class="navbar">
+    <a href="../../homepage.html">Home</a>
+    <a href="lesdatesMenu.html">Les dates</a>
+   
+  </div>
+  <div id="title-name">
+    <h1>Comment dire la date</h1>
+    </div>
+  
+  <div class="maison-parent">
+    <h3>Jour de la semaine:</h3>
+    <!-- <div class="maison-child">
+      <img src="../images/chambre.bmp" alt="Chambre">
+    </div> -->
+    <div class="maison-child">
+      <table class="blocks-text-block__table">
+        <thead class="blocks-text-block__tablehead">
+          <tr class="blocks-text-block__tablerow">
+            <th class="blocks-text-block__tablecell"><span>Français</span></th>
+            <th class="blocks-text-block__tablecell"><span>Anglais</span></th>
+          </tr>
+        </thead>
+        <tbody class="blocks-text-block__tablebody">
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="lundi()"><i class="fa-solid fa-volume-high"></i> Lundi</span></td>
+            <td class="blocks-text-block__tablecell"><span> Monday</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="mardi()"><i class="fa-solid fa-volume-high"></i> Mardi</span></td>
+            <td class="blocks-text-block__tablecell"><span> Tuesday</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="mercredi()"><i class="fa-solid fa-volume-high"></i> Mercredi</span></td>
+            <td class="blocks-text-block__tablecell"><span> Wednesday</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="jeudi()"><i class="fa-solid fa-volume-high"></i> Jeudi</span></td>
+            <td class="blocks-text-block__tablecell"><span> Thursday</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="vendredi()"><i class="fa-solid fa-volume-high"></i> Vendredi</span></td>
+            <td class="blocks-text-block__tablecell"><span> Friday</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="samedi()"><i class="fa-solid fa-volume-high"></i> Samedi</span></td>
+            <td class="blocks-text-block__tablecell"><span> Saturday</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="dimanche()"><i class="fa-solid fa-volume-high"></i> Dimanche</span></td>
+            <td class="blocks-text-block__tablecell"><span> Sunday</span></td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>  
+
+
+  </div>
+  <div class="maison-parent">
+    <h3>Les mois:</h3>
+    <div class="maison-child">
+    <table class="blocks-text-block__table">
+      <thead class="blocks-text-block__tablehead">
+        <tr class="blocks-text-block__tablerow">
+          <th class="blocks-text-block__tablecell"><span>Français</span></th>
+          <th class="blocks-text-block__tablecell"><span>Anglais</span></th>
+        </tr>
+      </thead>
+      <tbody class="blocks-text-block__tablebody">
+        <tr class="blocks-text-block__tablerow">
+          <td class="blocks-text-block__tablecell"><span class="french-name" onclick="janvier()"><i class="fa-solid fa-volume-high"></i> Janvier</span></td>
+          <td class="blocks-text-block__tablecell"><span> January</span></td>
+        </tr>
+        <tr class="blocks-text-block__tablerow">
+          <td class="blocks-text-block__tablecell"><span class="french-name" onclick="fevrier()"><i class="fa-solid fa-volume-high"></i> Février</span></td>
+          <td class="blocks-text-block__tablecell"><span> February</span></td>
+        </tr>
+        <tr class="blocks-text-block__tablerow">
+          <td class="blocks-text-block__tablecell"><span class="french-name" onclick="mars()"><i class="fa-solid fa-volume-high"></i> Mars</span></td>
+          <td class="blocks-text-block__tablecell"><span> March</span></td>
+        </tr>
+        <tr class="blocks-text-block__tablerow">
+          <td class="blocks-text-block__tablecell"><span class="french-name" onclick="avril()"><i class="fa-solid fa-volume-high"></i> Avril</span></td>
+          <td class="blocks-text-block__tablecell"><span> April</span></td>
+        </tr>
+        <tr class="blocks-text-block__tablerow">
+          <td class="blocks-text-block__tablecell"><span class="french-name" onclick="mai()"><i class="fa-solid fa-volume-high"></i> Mai</span></td>
+          <td class="blocks-text-block__tablecell"><span> May</span></td>
+        </tr>
+        <tr class="blocks-text-block__tablerow">
+          <td class="blocks-text-block__tablecell"><span class="french-name" onclick="juin()"><i class="fa-solid fa-volume-high"></i> Juin</span></td>
+          <td class="blocks-text-block__tablecell"><span> June</span></td>
+        </tr>
+        <tr class="blocks-text-block__tablerow">
+          <td class="blocks-text-block__tablecell"><span class="french-name" onclick="juillet()"><i class="fa-solid fa-volume-high"></i> Juillet</span></td>
+          <td class="blocks-text-block__tablecell"><span> Jully</span></td>
+        </tr>
+        <tr class="blocks-text-block__tablerow">
+          <td class="blocks-text-block__tablecell"><span class="french-name" onclick="aout()"><i class="fa-solid fa-volume-high"></i> Aout</span></td>
+          <td class="blocks-text-block__tablecell"><span> August</span></td>
+        </tr>
+        <tr class="blocks-text-block__tablerow">
+          <td class="blocks-text-block__tablecell"><span class="french-name" onclick="septembre()"><i class="fa-solid fa-volume-high"></i> Septembre</span></td>
+          <td class="blocks-text-block__tablecell"><span> September</span></td>
+        </tr>
+        <tr class="blocks-text-block__tablerow">
+          <td class="blocks-text-block__tablecell"><span class="french-name" onclick="octobre()"><i class="fa-solid fa-volume-high"></i> Octobre</span></td>
+          <td class="blocks-text-block__tablecell"><span> October</span></td>
+        </tr>
+        <tr class="blocks-text-block__tablerow">
+          <td class="blocks-text-block__tablecell"><span class="french-name" onclick="novembre()"><i class="fa-solid fa-volume-high"></i> Novembre</span></td>
+          <td class="blocks-text-block__tablecell"><span> November</span></td>
+        </tr>
+        <tr class="blocks-text-block__tablerow">
+          <td class="blocks-text-block__tablecell"><span class="french-name" onclick="décembre()"><i class="fa-solid fa-volume-high"></i> Décembre</span></td>
+          <td class="blocks-text-block__tablecell"><span> December</span></td>
+        </tr>
+          
+        </tbody>
+      </table>
+    </div>
+    <!-- <div class="maison-child">
+      <img src="../images/salon.bmp" alt="Chambre">
+    </div> -->
+  </div>
+
+  </div>
+  <div class="maison-parent">
+    <h3>Les nombres:</h3>
+    <!-- <div class="maison-child">
+      <img src="../images/cuisine.bmp" alt="Chambre">
+    </div> -->
+    <div class="maison-child">
+      <table class="blocks-text-block__table">
+        <thead class="blocks-text-block__tablehead">
+          <tr class="blocks-text-block__tablerow">
+            <th class="blocks-text-block__tablecell"><span>Français</span></th>
+            <th class="blocks-text-block__tablecell"><span>Anglais</span></th>
+          </tr>
+        </thead>
+        <tbody class="blocks-text-block__tablebody">
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="un()"><i class="fa-solid fa-volume-high"></i> un</span></td>
+            <td class="blocks-text-block__tablecell"><span> one</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="deux()"><i class="fa-solid fa-volume-high"></i> deux</span></td>
+            <td class="blocks-text-block__tablecell"><span> two</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="trois()"><i class="fa-solid fa-volume-high"></i> trois</span></td>
+            <td class="blocks-text-block__tablecell"><span> three</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="quatre()"><i class="fa-solid fa-volume-high"></i> quatre</span></td>
+            <td class="blocks-text-block__tablecell"><span> four</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="cinq()"><i class="fa-solid fa-volume-high"></i> cinq</span></td>
+            <td class="blocks-text-block__tablecell"><span> five</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="six()"><i class="fa-solid fa-volume-high"></i> six</span></td>
+            <td class="blocks-text-block__tablecell"><span> six</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="sept()"><i class="fa-solid fa-volume-high"></i> sept</span></td>
+            <td class="blocks-text-block__tablecell"><span> seven</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="huit()"><i class="fa-solid fa-volume-high"></i> huit</span></td>
+            <td class="blocks-text-block__tablecell"><span> eight</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="neuf()"><i class="fa-solid fa-volume-high"></i> neuf</span></td>
+            <td class="blocks-text-block__tablecell"><span> nine</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="dix()"><i class="fa-solid fa-volume-high"></i> dix</span></td>
+            <td class="blocks-text-block__tablecell"><span> ten</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="onze()"><i class="fa-solid fa-volume-high"></i> onze</span></td>
+            <td class="blocks-text-block__tablecell"><span> eleven</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="douze()"><i class="fa-solid fa-volume-high"></i> douze</span></td>
+            <td class="blocks-text-block__tablecell"><span> twelve</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="treize()"><i class="fa-solid fa-volume-high"></i> treize</span></td>
+            <td class="blocks-text-block__tablecell"><span> thirteen</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="quatorze()"><i class="fa-solid fa-volume-high"></i> quatorze</span></td>
+            <td class="blocks-text-block__tablecell"><span> forteen</span></td>
+          </tr>
+          <tr class="blocks-text-block__tablerow">
+            <td class="blocks-text-block__tablecell"><span class="french-name" onclick="quinze()"><i class="fa-solid fa-volume-high"></i> quinze</span></td>
+            <td class="blocks-text-block__tablecell"><span> fifteen</span></td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../JS/frenchapp.js"></script>
+</body>
+</html>

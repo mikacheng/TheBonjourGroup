@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google fonts Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <title>Word Scramble Game</title>
+  <script src="words.js" defer></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #title-name {
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 8px;
+      font-family: sans-serif;
+      font-size: 2rem;
+      color: #3510a4;
+    }
+    body {
+      background-color: rgb(240, 225, 140);
+      margin: 0 10% 0 10%;
+    }
+
+    /* The navigation menu */
+    .navbar {
+      overflow: hidden;
+      background-color: #333; 
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .navbar a:hover, .subnav:hover .subnavbtn {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <!-- The navigation menu -->
+  <div class="navbar">
+    <a href="../../homepage.html">Home</a>
+    <!-- <a href="jmpMenu.html">Je me présente</a> -->
+   
+  </div>
+
+
+
+  <div id="title-name">
+    <h1>Je me présente</h1>
+  </div>
+
+
+  <div class="container">
+    <h2>Word Scramble</h2>
+    <div class="content">
+      <p class="word"></p>
+      <div class="details">
+        <p class="hint">Hint: <span></span></p>
+        <p class="time">Time Left: <span><b>30</b>s</span></p>
+      </div>
+      <input type="text" placeholder="Enter a valid word">
+      <div class="buttons">
+        <button class="refresh-word">Refresh Word</button>
+        <button class="check-word">Check Word</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

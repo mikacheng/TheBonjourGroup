@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/524644cb14.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../CSS/index.css">
+	<title>Drag and Drop Game</title>
+</head>
+<body>
+	<section class="draggable-elements">
+		<i class="fa-solid fa-cat draggable" draggable="true" style="color: #ff6384;" id="chat"></i>
+		<i class="fa-solid fa-dog draggable" draggable="true" style="color: blue;" id="chien"></i>
+		<i class="fa-solid fa-dove draggable" draggable="true" style="color: pink;" id="oiseau"></i>
+		<i class="fa-solid fa-fish draggable" draggable="true" style="color: yellow;" id="poisson"></i>
+		<i class="fa-solid fa-frog draggable" draggable="true" style="color: green;" id="grenouille"></i>
+		<i class="fa-solid fa-horse draggable" draggable="true" style="color: black;" id="cheval"></i>
+	</section>
+	<section class="droppable-elements">
+		<div class="droppable" data-draggable-id="grenouille"><span>Grenouille</span></div>
+		<div class="droppable" data-draggable-id="chien"><span>Chien</span></div>
+		<div class="droppable" data-draggable-id="cheval"><span>Cheval</span></div>
+		<div class="droppable" data-draggable-id="oiseau"><span>Oiseau</span></div>
+		<div class="droppable" data-draggable-id="poisson"><span>Poisson</span></div>
+		<div class="droppable" data-draggable-id="chat"><span>Chat</span></div>
+	</section>
+	<script src="../JS/index.js"></script>
+</body>
+</html>

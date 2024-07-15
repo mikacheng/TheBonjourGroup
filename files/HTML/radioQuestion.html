@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/radioQuestion.css">
+  <script src="../js/radioQuestion.js" defer></script>
+  <title>Radio quiz</title>
+</head>
+<body>
+  <div class="form">
+    <h1 id="question"></h1>
+
+    <label><input name="choose" type="radio" id="option0" value="0"><p id="oText0"></p></label><br>
+    <label><input name="choose" type="radio" id="option1" value="1"><p id="oText1"></p></label><br>
+    <label><input name="choose" type="radio" id="option2" value="2"><p id="oText2"></p></label><br>
+
+    <button onclick="check()">Check</button>
+    <h2 id="result"></h2>
+  </div>
+</body>
+</html>

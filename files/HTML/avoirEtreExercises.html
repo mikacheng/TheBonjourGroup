@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/dadg.css">
+  <script src="../JS/dragdrop.js" defer></script>
+  <title>Document</title>
+  <style>
+    #title-name {
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 8px;
+      font-family: sans-serif;
+      font-size: 2rem;
+      color: #3510a4;
+    }
+    body {
+      background-color: rgb(240, 225, 140);
+      margin: 0 10% 0 10%;
+    }
+
+    .maison-parent {
+      border: 1px solid black;
+      margin: 1rem;
+      padding: 1rem 0rem;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      gap: 5px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* div > div {
+      background-color: rgb(200, 170, 30);
+      width: 350px;
+      height: 35px;
+      border: 1px solid orange;
+      margin: 1rem;
+      margin-bottom: 0.5rem;
+      padding: 0rem 0rem;
+      text-align: left;
+      font-size: 1.3rem;
+    }
+
+    div > a {
+      text-decoration: none;
+      margin-left: 25px;
+      color: #3510a4;
+    } */
+    /* The navigation menu */
+    .navbar {
+      overflow: hidden;
+      background-color: #333; 
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .navbar a:hover, .subnav:hover .subnavbtn {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <!-- The navigation menu -->
+  <div class="navbar">
+    <a href="../../homepage.html">Home</a>
+    <a href="jmpMenu.html">Les pays et Nationalité menu</a>
+    
+  </div>
+  <!-- Words list menu -->
+  <div id="title-name">
+    <div class="maison-child">
+      
+      <h1><img src="../images/menuLogo.png" width="25px" alt="Chambre"> Avoir et être</h1>
+    </div>
+    
+  </div>
+
+
+
+  <div>
+    <h1></h1>
+    <h2></h2>
+    <div id="jumbleWordsWrapper">
+      <span id="j" data-source-id="j" draggable="true">j'</span>
+      <span id="bleus" data-source-id="bleus" draggable="true">bleus</span>
+      <span id="cheveux" data-source-id="cheveux" draggable="true">cheveux</span>
+      <span id="les" data-source-id="les" draggable="true">les</span>
+      <span id="ai" data-source-id="ai" draggable="true">ai</span>
+      <span id="blond" data-source-id="blond" draggable="true">blond</span>
+      <span id="et" data-source-id="et" draggable="true">et</span>
+      <span id="yeux" data-source-id="yeux" draggable="true">yeux</span>
+      <span id="les" data-source-id="les" draggable="true">les</span>
+    </div>
+    <div id="orderedWorldsWrapper">
+      
+      <span data-target-id="j"></span></p>
+      
+      <p>J'<span data-target-id="ai"></span> les cheveux blond.</p>
+      
+      <span data-target-id="les"></span>
+      <span data-target-id="cheveux"></span>
+      <span data-target-id="blond"></span>
+      <span data-target-id="et"></span>
+      <span data-target-id="les"></span>
+      <span data-target-id="yeux"></span>
+      <span data-target-id="bleus"></span>
+      
+    </div>
+  </div>
+
+
+  <!-- <p>J'<input></input> une trousse rouge.</p>
+  <p>Tu <input></input> une trousse rouge.</p>
+  <p>Il <input></input> une trousse rouge.</p>
+  <p>Elle <input></input> une trousse rouge.</p>
+  <p>on <input></input> une trousse rouge.</p>
+  <p>Nous <input></input> une trousse rouge.</p>
+  <p>Vous <input></input> une trousse rouge.</p>
+  <p>Ils <input></input> une trousse rouge.</p>
+  <p>Elles <input></input> une trousse rouge.</p> -->
+</body>
+</html>

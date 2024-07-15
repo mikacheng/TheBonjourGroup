@@ -1,0 +1,14 @@
+#container {
+  background-color: rgb(120, 120, 182);
+  text-align: center;
+}
+
+
+
+.button {
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 20px;
+}

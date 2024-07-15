@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="../js/question.js" defer></script>
+<link rel="stylesheet" href="../css/questions.css">
+</head>
+<body>
+
+  <h2 id="title-name">Questions sur la famille</h2>
+  <br>
+  <br>
+  <!-- Repondez aux questions -->
+  <h2>Repondez aux questions: </h2>
+  <div>
+    <p class="questionText">1) Le père de ma mère est ______. </p>
+    <button type="button" class="collapsible">Check answer</button>
+    <div class="content">
+      <p>La response est: Mon grand-père.</p>
+    </div>
+  </div>
+  <br>
+  <br>
+  <h1>javascript word search game</h1>
+  <br>
+  <br>
+  <!-- complete blank questions -->
+  <h2>Completez les phrases: </h2>
+  <div>
+    <div class="showAnswer">
+      <span id="ans"></span>
+    </div>
+    <div class="box1">
+      <p id="inText"></p>
+    </div>
+    <div class="box2">
+      <input type="text" id="inText2">
+    </div>
+  </div>
+  
+  <div class="box3">
+    <button class="btn" onclick="game()" style="height: 20px; width: 200px;"> Check Answer</button>
+  </div>
+  <br>
+  <br>
+  <br>
+  <!-- Cochez la bonne reponse -->
+  <h2>Cochez la bonne reponse: </h2>
+  <div class="form">
+    <h1 id="question"></h1>
+
+    <label><input name="choose" type="radio" id="option0" value="0"><p id="oText0"></p> 
+    </label><br>
+    <label><input name="choose" type="radio" id="option1" value="1"><p id="oText1"></p> 
+    </label><br>
+    <label><input name="choose" type="radio" id="option2" value="2"><p id="oText2"></p> 
+    </label><br>
+
+    <button onclick="check()">Check</button>
+    <h2 id="result"></h2>
+  </div>
+
+  <div class="return"><a href="familleMenu.html"><img src="../images/arrow.png" style="width:50px; height:50px"></a></div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+  background-color: lightgray;
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+  color: blue;
+}
+
+.image_container {
+  width: 400px;
+  height: 500px;
+  margin: 25px auto;
+}
+
+
+
+#image {
+  border-radius: 50px;
+  width: 400px;
+  height: 500px;
+}

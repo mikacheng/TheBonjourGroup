@@ -1,0 +1,19 @@
+body {
+  background-color: lightgray;
+}
+
+.image {
+  width: 400px;
+  margin: 25px auto;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+#image {
+  width: 400px;
+  height: 500px;
+}
