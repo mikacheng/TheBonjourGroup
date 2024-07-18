@@ -440,4 +440,23 @@ function quinze() {
   var audio = new Audio('../sounds/quinze.mp3');
   audio.play();
 }
-
+function seize() {
+  var audio = new Audio('../sounds/seize.mp3');
+  audio.play();
+}
+function dixsept() {
+  var audio = new Audio('../sounds/dixsept.mp3');
+  audio.play();
+}
+function dixhuit() {
+  var audio = new Audio('../sounds/dixhuit.mp3');
+  audio.play();
+}
+function dixneuf() {
+  var audio = new Audio('../sounds/dixneuf.mp3');
+  audio.play();
+}
+function vingt() {
+  var audio = new Audio('../sounds/vingt.mp3');
+  audio.play();
+}
