@@ -30,7 +30,8 @@
     .grid {
       display: grid;
       gap: 5px;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      align-content: center;
     }
 
     div > div {
